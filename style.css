@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 62.5%;
+    text-decoration: none;
+    
+}
+.banner {
+    width: 100%;
+    height: 80vh;
+    background: url(/view.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.section1 {
+    width:50%;
+    position: fixed;
+    top: 120px;
+    left: 150px;
+}
+.banner h1 {
+    width: 100%;
+    font-size: 5.6rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.banner p {
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    margin: 30px 0;
+}
+.section1 button {
+    background-color: tomato;
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 30px;
+    text-shadow: 1px 1px 5px black;
+    margin-bottom: 30px;
+}
+.section1 button:hover {
+    text-shadow: -1px -1px 5px black;
+    color:black;
+}
+.section1 h3,i {
+    font-size: 3rem;
+    margin: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+form {
+    width: 20%;
+    height: 55%;
+    background-color: tomato;
+    text-align: center;
+    padding: 15px;
+
+    position: relative;
+    top: 120px;
+    left: 70%;
+}
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: white;
+   
+}
+footer .symbols{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer .symbols i {
+    font-size: 3.3rem;
+    color: tomato;
+    text-shadow: 0 0 0 ;
+    margin: 35px 0;
+}
+.explanations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
