@@ -20,16 +20,18 @@
               <i class="fab fa-cc-apple-pay"></i>
        </div>
        <form action="#">
+           <div class="form">
               <h2>Book Your Room</h2>
-              <label for=""></label>
-              <input type="text">
-              <label for=""></label>
-              <input type="text">
-              <label for=""></label>
-              <input type="text">
-              <label for=""></label>
-              <input type="text">
-              <button>SEND MESSAGE</button>
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" placeholder="John Brook" required>
+              <label for="email">E-Mail:</label>
+              <input type="email" id="email" name="email" placeholder="john.brook@email.com" required>
+              <label for="confirm">Confirm your e-mail:</label>
+              <input type="email" id="confirm" name="confirmemail">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" minlength="6">
+              <button type="submit">Login!</button>
+            </div>
        </form>
     </div>
     <footer>
