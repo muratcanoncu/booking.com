@@ -11,7 +11,7 @@ body {
 .banner {
     width: 100%;
     height: 80vh;
-    background: url(../exercise/img/view.jpg);
+    background: url(../img/view.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
